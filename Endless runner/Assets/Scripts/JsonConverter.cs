@@ -30,8 +30,7 @@ public class JsonConverter : MonoBehaviour
         jsonObj_[count_obj].runs = PlayerData.instance.number_of_runs;
 
         jsonObj_[count_obj].fish = TrackManager.instance.characterController.coins;
-        foreach(Consumable.ConsumableType key in PlayerData.instance.consumables.Keys)
-            jsonObj_[count_obj].collected.Add(key);
+        jsonObj_[count_obj].consumabled_consumbed = TrackManager.instance.characterController.characterCollider.consumed;
 
         jsonObj_[count_obj].obstacle_impacted = TrackManager.instance.characterController.characterCollider.deathData.obstacleType;
         jsonObj_[count_obj].speed_atDeath = TrackManager.instance.speed;
@@ -39,7 +38,7 @@ public class JsonConverter : MonoBehaviour
         count_obj++;
         //string json = JsonUtility.ToJson(jsonObj_);
 
-        string json = JsonConvert.SerializeObject(jsonObj_);
+        string json = JsonConvert.SerializeObject(jsonObj_, Formatting.Indented);
 
         writeout(json);
     }

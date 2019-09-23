@@ -29,6 +29,9 @@ public class CharacterCollider : MonoBehaviour
 
 	public ParticleSystem koParticle;
 
+    [HideInInspector]
+    public Dictionary<Consumable.ConsumableType, int> consumed = new Dictionary<Consumable.ConsumableType, int>();
+
 	[Header("Sound")]
 	public AudioClip coinSound;
 	public AudioClip premiumSound;
@@ -165,6 +168,9 @@ public class CharacterCollider : MonoBehaviour
             Consumable consumable = c.GetComponent<Consumable>();
             if(consumable != null)
             {
+                if (!consumed.ContainsKey(consumable.GetConsumableType()))
+                    consumed.Add(consumable.GetConsumableType(), 1);
+                consumed[consumable.GetConsumableType()] +=1;
                 controller.UseConsumable(consumable);
             }
         }

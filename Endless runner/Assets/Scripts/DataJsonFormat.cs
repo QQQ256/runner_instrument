@@ -12,7 +12,7 @@ public class DataJsonFormat
     public int score;
     public int runs;
     public int fish;
-    public List<Consumable.ConsumableType> collected;
+    public Dictionary<Consumable.ConsumableType, int> consumabled_consumbed;
     public string obstacle_impacted;
 
     public float speed_atDeath;

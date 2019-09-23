@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 4}
-  m_MinSize: {x: 950, y: 548}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -42,8 +42,8 @@ MonoBehaviour:
     y: 0
     width: 571
     height: 313
-  m_MinSize: {x: 202, y: 224}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -70,10 +70,10 @@ MonoBehaviour:
     y: 754
     width: 1360
     height: 313
-  m_MinSize: {x: 436, y: 274}
-  m_MaxSize: {x: 14006, y: 10024}
+  m_MinSize: {x: 304, y: 200}
+  m_MaxSize: {x: 8004, y: 4024}
   vertical: 0
-  controlID: 54
+  controlID: 49
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -162,10 +162,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 1067
-  m_MinSize: {x: 711, y: 498}
-  m_MaxSize: {x: 18006, y: 14048}
+  m_MinSize: {x: 579, y: 424}
+  m_MaxSize: {x: 12004, y: 8048}
   vertical: 0
-  controlID: 52
+  controlID: 47
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,10 +187,10 @@ MonoBehaviour:
     y: 0
     width: 1360
     height: 1067
-  m_MinSize: {x: 436, y: 498}
-  m_MaxSize: {x: 14006, y: 14048}
+  m_MinSize: {x: 304, y: 424}
+  m_MaxSize: {x: 8004, y: 8048}
   vertical: 1
-  controlID: 53
+  controlID: 48
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -239,16 +239,16 @@ MonoBehaviour:
     y: 0
     width: 789
     height: 313
-  m_MinSize: {x: 234, y: 274}
-  m_MaxSize: {x: 10004, y: 10024}
-  m_ActualView: {fileID: 17}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
   - {fileID: 21}
   - {fileID: 18}
   - {fileID: 17}
-  m_Selected: 3
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 3
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -390,7 +390,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: a44a0000
     m_LastClickedID: 19108
-    m_ExpandedIDs: 0000000086340000
+    m_ExpandedIDs: 000000006429000096290000cc290000d62b0000e82c0000322f000062330000d6330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -418,7 +418,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000086340000
+    m_ExpandedIDs: 000000006429000096290000cc290000d62b0000e82c0000322f000062330000d6330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -696,34 +696,34 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/UI
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/UI
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Uttkarsh Narayan\Desktop\SC_2\Endless runner
+  m_LastProjectPath: C:\Users\Uttkarsh Narayan\Desktop\runner\Endless runner
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 331}
-    m_SelectedIDs: f63b0000
-    m_LastClickedID: 15350
-    m_ExpandedIDs: 0000000086340000b0340000de34000050390000983c0000f03c0000388d00003c8d0000
+    scrollPos: {x: 0, y: 124}
+    m_SelectedIDs: 62330000
+    m_LastClickedID: 13154
+    m_ExpandedIDs: 000000006429000096290000cc290000d62b0000e82c0000322f000062330000d6330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Sounds
-      m_OriginalName: Sounds
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 14658
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
@@ -737,7 +737,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000086340000
+    m_ExpandedIDs: 000000006429000096290000cc290000d62b0000e82c0000322f000062330000d6330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -762,24 +762,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 243a0000
+    m_LastClickedInstanceID: 14884
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300008c5d0000c83500007030000036be000060500000825600002a550000dc590000704d000060590000f24c0000e056000058590000f64c0000a44b00000c4d00006c590000c8730000ac560000ea930000da3000003e4e0000ec5a0000242d0000aa2f0000be400000000000001a310000d4310000703a0000c4590000a8300000965c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: GameState
-      m_OriginalName: GameState
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 10022
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
@@ -789,7 +789,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 115}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 161
 --- !u!114 &18
@@ -855,24 +855,24 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 308}
-      m_SelectedIDs: d06e0000
-      m_LastClickedID: 28368
-      m_ExpandedIDs: 3eebffff0af0ffff2af0ffff64f3ffff84f3ffffe4f7ffff82f8ffff266c0000ba6c0000d66c0000046d00004c6d00007c6d0000b86d0000d06d0000d06e0000226f0000d87000003e7100006c710000b6710000ec710000
+      scrollPos: {x: 0, y: 140}
+      m_SelectedIDs: 78380000
+      m_LastClickedID: 14456
+      m_ExpandedIDs: ccfbffff263600004c370000103c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: TrackManager
-        m_OriginalName: TrackManager
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 29110
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 2}
       m_SearchString: 
@@ -936,7 +936,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 28540
+  m_LastSelectedObjectID: 14884
 --- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
