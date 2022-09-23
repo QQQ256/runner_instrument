@@ -10,7 +10,7 @@ using Unity;
 //you can also just use Jsonutility that comes with unity if you have a simple json
 using Newtonsoft.Json;
 
-public class JsonConverter : MonoBehaviour
+public class CollectData : MonoBehaviour
 {
     public List<DataJsonFormat> jsonObj_ = new List<DataJsonFormat>();
     public int count_obj = 0;
