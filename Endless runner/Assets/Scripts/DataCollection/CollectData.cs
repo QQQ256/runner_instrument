@@ -53,7 +53,7 @@ public class CollectData : MonoBehaviour
 
     void CollectJson()
     {
-        jsonObj.Add(obj);
+        jsonObj.Add((Data)obj.Clone());
         string json = JsonConvert.SerializeObject(jsonObj, Formatting.Indented);
         WriteOut(json);
     }
@@ -64,7 +64,7 @@ public class CollectData : MonoBehaviour
         string consumed = "";
         foreach(var consume in obj.consumabled_consumbed)
         {
-            consumed += consume + "_";
+            consumed += consume.ToString().Replace(",","") + "_";
         }
 
         csvObj.Add(obj.date  + "," 

@@ -28,4 +28,8 @@ public class Data
         obstacle_impacted  = "";
         speed_atDeath = 0f; 
     }
+
+    public object Clone(){
+        return this.MemberwiseClone();
+    }      
 }
